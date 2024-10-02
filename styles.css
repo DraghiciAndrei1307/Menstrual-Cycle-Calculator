@@ -1,0 +1,33 @@
+body{
+    color: #FFFFFF;
+}
+
+#hero{
+    background-color: #DE3781;
+    color:#FFFFFF;
+}
+#hero > h1{
+    color: #FFFFFF;
+}
+
+
+.hero-image{
+    border-radius: 40px;
+}
+
+
+#form{
+    background-color: #DC81DE;
+    padding: 100px;
+
+    height: 80vh;
+}
+
+form > .mb-3 > .form-label {
+    font-size: 1.5rem;
+}
+
+
+form > .mb-3 > input {
+    width: 75%
+}

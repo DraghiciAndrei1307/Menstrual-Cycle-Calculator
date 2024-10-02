@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENSTRUAL CYCLE CALCULATOR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <section id = "hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/menstrual_cycle_calculator_hero.jfif" class="d-block mx-lg-auto img-fluid hero-image" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">MENSTRUAL CYCLE CALCULATOR</h1>
+            <p class="lead">Meet your digital partner for women’s health! Our menstrual cycle calculator provides a simple and accurate way to track your period, ovulation, and fertile days. Whether you want to better plan your daily life or understand your body more deeply, we're here to help you stay connected to your cycle.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id = "form">
+        <div class = "container">
+            <form>
+                <div class="mb-3">
+                  <label for="lastMenstruationStartingDate" class="form-label">When started your last menstruation?(dd/mm/yyyy)</label>
+                  <input type="date" class="form-control" id="lastMenstruationStartingDate" aria-describedby="lastMenstruationStartingDate">
+                </div>
+                <div class="mb-3">
+                  <label for="lastMenstruationDuration" class="form-label">How long does your period usually last?(type the number of days)</label>
+                  <input type="number" class="form-control" id="lastMenstruationDuration">
+                </div>
+                <div class="mb-3">
+                    <label for="menstrualCycleInDays" class="form-label">How many days is your menstrual cycle?(type the number of days)</label>
+                    <input type="number" class="form-control" id="menstrualCycleInDays">
+                </div>
+                <button type="submit" class="btn btn-primary">CALCULATE NEXT MENSTRUATION</button>
+              </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
