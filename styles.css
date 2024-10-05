@@ -1,33 +1,207 @@
 body{
-    color: #FFFFFF;
+    background-color: #F4DEB3;
 }
 
 #hero{
-    background-color: #DE3781;
-    color:#FFFFFF;
-}
-#hero > h1{
-    color: #FFFFFF;
+    height: 80vh;
+    background-color: #FF8A8A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
-.hero-image{
-    border-radius: 40px;
+.hero-class-image > img{
+    height:700px;
+    width:700px;
+    border-radius: 20px;
+}
+
+.hero-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-class-text{
+    flex-direction: column;
+    align-items: start;
+}
+
+.hero-class-text{
+
+width: 45%;
+
+}
+
+.hero-class-text > h1{
+    color: white;
+    font-size: 5rem;
+    margin: 50px 0;
+}
+
+.hero-class-text > p{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.hero-class-image{
+ width: 45%;
 }
 
 
 #form{
-    background-color: #DC81DE;
-    padding: 100px;
-
-    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    background-color: #F4DEB3;
 }
 
-form > .mb-3 > .form-label {
+.form-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF8A8A;
+    width: 40%;
+    border-radius: 40px;
+    height: 75%;
+    padding:50px;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 75%;
+}
+
+.form-class{
+    color: white;
+    font-weight: bolder;
+}
+
+.form-class > h2{
+    font-size: 3rem;
+    text-align: left;
+}
+
+.form-content > label{
     font-size: 1.5rem;
 }
 
+.form-content > input{
 
-form > .mb-3 > input {
-    width: 75%
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: 0px;
 }
+
+
+/******/
+
+/* General styling for the date input */
+input {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+
+}
+
+/* Change the background color when focused */
+input:focus {
+    border-color: #007bff; /* Blue border */
+    background-color: #eaf4ff;
+}
+
+.form-content > button{
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFD0D0;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+
+}
+
+hr{
+    border: dotted black 20px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+
+#resuls > .calendar{
+    display: inline-block;
+    background-color: #FF8A8A;
+    height: 100px;
+    width: 100px
+}
+
+#overview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.overview-container{
+    background-color: #FF8A8A;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.previous{
+    width: 100px;
+    height: 100px;
+    background-color: #FF8A8A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 400;
+
+}
+
+.next{
+    width: 100px;
+    height: 100px;
+    background-color: #FF8A8A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview{
+    display: none;
+}
+
+.how-it-works{
+    display: none;
+}
+
+.phases{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+

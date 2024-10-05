@@ -9,44 +9,96 @@
 </head>
 <body>
 
-    <section id = "hero">
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="./images/menstrual_cycle_calculator_hero.jfif" class="d-block mx-lg-auto img-fluid hero-image" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">MENSTRUAL CYCLE CALCULATOR</h1>
-            <p class="lead">Meet your digital partner for women’s health! Our menstrual cycle calculator provides a simple and accurate way to track your period, ovulation, and fertile days. Whether you want to better plan your daily life or understand your body more deeply, we're here to help you stay connected to your cycle.</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-            </div>
-          </div>
-        </div>
+  <section id="hero">
+    <div class="hero-class-text hero-class">
+      <h1>Menstrual Cycle Calculator</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <div class="hero-class-image hero-class">
+      <img src="./images/menstrual_cycle_calculator_hero.jfif" alt="">
+    </div>
+  </section>
+  <section id="form">
+    <div class="form-class">
+
+      <h2>FORM</h2>
+      <div class="form-content">
+        <label for="input1">Date of Last Menstrual Period(LMP)</label>
+        <input type="date" class="input1">
+        <label for="input2">Length of Menstrual Cycle</label>
+        <input type="text" class="input2">
+        <label for="input3">Duration</label>
+        <input type="text" class="input3">
+        <label for="input4">Cycle Regularity</label>
+        <input type="text" class="input4">
+        <button>Submit</button>
       </div>
-    </section>
+    </div>
+  </section>
+  <hr>
+  <section id="results">
+    <h2>Results</h2>
+    <h2>Complete the form in order to view the results</h2>
+    <div class="calendar"></div>
+    <div class="calendar"></div>
+    <div class="calendar"></div>
+  </section>
+  <section id="overview">
+    <div class="previous"><h2><</h2></div>
+    <div class="overview-container">
 
-    <section id = "form">
-        <div class = "container">
-            <form>
-                <div class="mb-3">
-                  <label for="lastMenstruationStartingDate" class="form-label">When started your last menstruation?(dd/mm/yyyy)</label>
-                  <input type="date" class="form-control" id="lastMenstruationStartingDate" aria-describedby="lastMenstruationStartingDate">
-                </div>
-                <div class="mb-3">
-                  <label for="lastMenstruationDuration" class="form-label">How long does your period usually last?(type the number of days)</label>
-                  <input type="number" class="form-control" id="lastMenstruationDuration">
-                </div>
-                <div class="mb-3">
-                    <label for="menstrualCycleInDays" class="form-label">How many days is your menstrual cycle?(type the number of days)</label>
-                    <input type="number" class="form-control" id="menstrualCycleInDays">
-                </div>
-                <button type="submit" class="btn btn-primary">CALCULATE NEXT MENSTRUATION</button>
-              </form>
-        </div>
-    </section>
+      <div class = "overview active">
+        <img src="" alt="">    
+        <h2>Menstrual Cycle Overview</h2>
+        <p>The menstrual cycle is a natural, recurring process in a woman's body, marking her reproductive health and fertility. Each cycle typically begins on the first day of menstruation (bleeding) and lasts until the first day of the next menstrual period. While the average cycle is about 28 days, it can vary between 21 to 35 days, depending on individual factors.</p>
+        <p>Understanding your menstrual cycle is essential, not just for reproductive planning, but also for monitoring overall health and recognizing potential hormonal imbalances. Below is a detailed guide to the menstrual cycle, its phases, and the factors that influence it.</p>
+      </div>
+      <div class="phases">
+        <h2>Phases of the Menstrual Cycle</h2>
+        <p>The menstrual cycle is divided into four main phases, each serving a unique role in preparing the body for potential pregnancy.</p>
+        <h3>1. Menstrual Phase</h3>
+        <ul>
+          <li>Duration</li>
+          <li>What Happens</li>
+          <li>Symptoms</li>
+        </ul>
+        <h3>2. Folicular Phase</h3>
+        <ul>
+          <li>Duration</li>
+          <li>What Happens</li>
+          <li>Symptoms</li>
+        </ul>
+        <h3>3. Ovulation Phase</h3>
+        <ul>
+          <li>Duration</li>
+          <li>What Happens</li>
+          <li>Symptoms</li>
+        </ul>
+        <h3>4. Luteal Phase</h3>
+        <ul>
+          <li>Duration</li>
+          <li>What Happens</li>
+          <li>Symptoms</li>
+        </ul>
+      </div>
+      <div class="how-it-works">
+        <h3>How the Menstrual Cycle Calculator Works</h3>
+        <p>A menstrual cycle calculator helps predict the dates of your next period, as well as your most fertile days. By entering basic information such as the start date of your last period and the typical length of your cycle, the calculator can estimate the following:</p>
+        <ul>
+          <li>Next period start date</li>
+          <li>Ovulation date</li>
+          <li>Fertile window</li>
+        </ul>
+      </div>
+      <div class="window">
+  
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </div>
+    <div class="next"><h2>></h2></div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
