@@ -14,8 +14,8 @@ body{
 
 
 .hero-class-image > img{
-    height:700px;
-    width:700px;
+    height:500px;
+    width:500px;
     border-radius: 20px;
 }
 
@@ -152,13 +152,33 @@ hr{
 
 #results{
     margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#results > .calendar{
+#results > h2{
+    font-size: 3rem;
+    font-family: "Merriweather", serif;
+}
+#results > h3{
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+}
+.calendars{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#results > .calendars > .calendar{
     display: inline-block;
     background-color: #FF8A8A;
-    height: 100px;
-    width: 100px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
     
 }
 
@@ -195,19 +215,24 @@ hr{
 .info-section-text > h2{
     margin-top: 40px;
     font-size: 3rem;
+    font-family: "Merriweather", serif;
 }
 
 .info-section-text > p{
     width: 100%;
     font-size: 1.5rem; 
+    font-family: "Roboto", sans-serif;
 }
 
 .info-section-text > h3{
     font-size: 1.75rem;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
 }
 
 .info-section-text > ul > li{
     font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
 }
 
 .info-section{
@@ -217,7 +242,9 @@ hr{
     color: white;
 }
 
-
+#footer{
+    height: 40vh;
+}
 
 
 
